@@ -1,7 +1,24 @@
 Step 1:  Fork  repository
          Fork the repository by clicking on the fork button on the top of the page.
          it  will create a copy of  repository in your account.
++-----------------------------------------------------------------------------------+
+step 2: 
+        Now clone the forked repository to your machine. Go to your GitHub account,
+        open the forked repository, click on the code button and then click the copy to clipboard icon.
 
-step 2: git clone "url you just copied"
+command on vs code :- git clone "url you just copied"
++-----------------------------------------------------------------------------------+
+step 3:
+       Create a branch
+       Change to the repository directory on your computer (if you are not already there):
 
-  
+command on vs code :- cd first-contributions
+------------------------------------------------------------------------------------+
+step 3:
+        Now create a branch 
+        using the git switch command:
+
+command on vs code :- git switch -c your-new-branch-name
+
+Before that you should create a new Branch, on the repo  has you cloned before
+------------------------------------------------------------------------------------+
