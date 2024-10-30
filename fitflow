@@ -1,0 +1,26 @@
+Feature Branch:
+              Each new feature should reside in its branch, which can be pushed to the central repository for backup/collaboration.
+              Feature branches use the latest develop as their parent branch. When a feature is complete, it gets merged back into develop.
+              Features should never interact directly with the master branch.
+              
+Creating a Feature Branch:
+
+#Without git-flow extensions:
+#commands
+git checkout develop
+git checkout -b feature_branch
+
+
+#With gitflow extensions:
+#commands
+git flow feature start feature_branch
+
+#Finishing a Feature Branch:
+
+#Without git-flow extensions:
+#commands
+git checkout develop
+git merge feature_branch
+
+#With git-flow extensions:
+git flow feature finish feature_branch
