@@ -31,10 +31,19 @@ step 4:
 
 command on vs code:- If you go to the project directory and execute the command [git status], you'll see there are changes.
 
-Add those changes to the branch you just created using the git add command:
+     Add those changes to the branch you just created using the git add command:
 
 command on cs code:- git add Contributors.md
 -------------------------------------------
 Now commit those changes using the git commit command:
 
 git commit -m "Add your-name to Contributors list"
+-----------------------------------------------------------------------------------+
+
+    Push changes to GitHub
+    Push your changes using the command git push:
+
+command on vs code :- git push -u origin your-branch-name
+
+replacing your-branch-name with the name of the branch you created earlier.
+-------------------------------------------------------------------------------------+
