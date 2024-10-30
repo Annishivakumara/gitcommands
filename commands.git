@@ -20,5 +20,21 @@ step 3:
 
 command on vs code :- git switch -c your-new-branch-name
 
-Before that you should create a new Branch, on the repo  has you cloned before
+     Before that you should create a new Branch, on the repo  has you cloned before
+     For example:
+
+git switch -c add-alonzo-church
 ------------------------------------------------------------------------------------+
+step 4:
+     Now open Contributors.md file in a text editor, add your name to it.
+     Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
+
+command on vs code:- If you go to the project directory and execute the command [git status], you'll see there are changes.
+
+Add those changes to the branch you just created using the git add command:
+
+command on cs code:- git add Contributors.md
+-------------------------------------------
+Now commit those changes using the git commit command:
+
+git commit -m "Add your-name to Contributors list"
