@@ -1,0 +1,16 @@
+##Check the Directory Structure:
+
+dir 
+
+  dir <folder_name>
+
+  2. Add the File with the Correct Path:
+
+  git add forloop/001.py
+
+  3. Verify the Path:
+
+cd <folder_name>
+   git add <folder_name>/001.py
+
+  git status
