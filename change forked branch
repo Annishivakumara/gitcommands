@@ -1,0 +1,4 @@
+ step 1: git branch
+step 2 : git checkout -b students
+step 3 : git push origin students
+
