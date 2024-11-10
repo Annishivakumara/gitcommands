@@ -1,4 +1,9 @@
-step 1  :- git add .
+step A:- git clone <repository _ link>
+step B:- cd  file name 
+    step  C:-ls 
+last open floder abnd select the folder
+
+ step 1  :- git add .
 
   step 2 :- git add path\to\file
          For example:
