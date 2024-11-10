@@ -11,3 +11,7 @@ step 1  :- git add .
   
   Step 4: Push Changes (Optional,
          if you want to send the commit to a remote repository)
+
+ step 5: 
+          git status
+ 
