@@ -1,0 +1,13 @@
+step 1  :- git add .
+
+  step 2 :- git add path\to\file
+         For example:
+            git add index.html
+  step 3:
+         To commit with a message, use:
+         git commit -m "Your commit message here"
+        ex: 
+        git commit -m "Added new feature X"
+  
+  Step 4: Push Changes (Optional,
+         if you want to send the commit to a remote repository)
