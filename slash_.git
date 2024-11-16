@@ -1,0 +1,6 @@
+or updating existing file
+git add .
+git add filename/subfile_name/specific_code_file  --run
+
+ex:-
+git add ./module2/indices.py
